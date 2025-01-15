@@ -137,3 +137,6 @@ https://github.com/langchain-ai/open-canvas
 - https://github.com/stanford-oval/storm/tree/main
 ## [cursor 破解]
 - https://github.com/chengazhen/cursor-auto-free
+- 
+## 社交媒体自动化
+https://github.com/David-patrick-chuks/Riona-AI-Agent
