@@ -20,3 +20,9 @@ git submodule update --init --recursive
 git submodule update --remote --merge
 
 ```
+
+## submodule 删除单个子模块
+```
+git submodule deinit -f mtxlib
+rm -rf .git/modules/mtxlib
+git rm -f packages/mtxlib
