@@ -3,8 +3,11 @@ export HTTP_PROXY="http://127.0.0.1:10809" && export HTTPS_PROXY="http://127.0.0
 
 ## postgresql 释放连接
 ```sql
-SELECT pg_terminate_backend(pid)
-FROM pg_stat_activity
+SELECT pg_terminate_backend(pid) 
+FROM pg_stat_activity 
+WHERE pid <> pg_backend_pid()     -- 排除当前连接
+AND datname = current_database()   -- 只终止当前数据库的连接
+AND state != 'idle';              -- 终止非空闲连接
 ```
 
 
