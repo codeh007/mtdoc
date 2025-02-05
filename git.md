@@ -26,11 +26,11 @@ git submodule update --remote --merge
 git submodule deinit -f mtxlib
 rm -rf .git/modules/mtxlib
 git rm -f packages/mtxlib
-
-
+```
 ## 永久删除单个文件
-```bash
+```
 git filter-branch --force --index-filter \
   'git rm --cached --ignore-unmatch packages/gomtm-cli/bin/gomtm' \
   --prune-empty --tag-name-filter cat -- --all
+
 ```
