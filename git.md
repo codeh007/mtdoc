@@ -27,10 +27,27 @@ git submodule deinit -f mtxlib
 rm -rf .git/modules/mtxlib
 git rm -f packages/mtxlib
 ```
-## 永久删除单个文件
+## 用重基的方式永久删除一个文件.优点,干劲利落的重建了仓库,缺点是比较危险,会重写历史,而且需要重新拉取仓库
 ```
 git filter-branch --force --index-filter \
   'git rm --cached --ignore-unmatch packages/gomtm-cli/bin/gomtm' \
   --prune-empty --tag-name-filter cat -- --all
 
+git push --force
+```
+
+## 用 git filter-repo 的方式永久删除一个文件
+``` bash
+pip install git-filter-repo
+# 删除单个文件
+git filter-repo --path 文件路径 --invert-paths
+
+# 例如删除 password.txt
+git filter-repo --path password.txt --invert-paths
+
+# 删除多个文件
+git filter-repo --path 文件1 --path 文件2 --invert-paths
+
+# 删除某个目录
+git filter-repo --path-glob '目录名/*' --invert-paths
 ```
