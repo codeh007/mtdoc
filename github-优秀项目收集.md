@@ -140,3 +140,6 @@ https://github.com/langchain-ai/open-canvas
 - 
 ## 社交媒体自动化
 https://github.com/David-patrick-chuks/Riona-AI-Agent
+
+## metagpt (40kstarts)
+- url: [https://github.com/geekan/MetaGPT/blob/main/examples/research.py](https://github.com/geekan/MetaGPT/tree/main)
