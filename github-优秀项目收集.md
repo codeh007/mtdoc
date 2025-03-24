@@ -141,6 +141,9 @@ https://github.com/langchain-ai/open-canvas
 ## 社交媒体自动化
 https://github.com/David-patrick-chuks/Riona-AI-Agent
 
+## 内核模仿 browser use 的 typescript 智能体
+https://github.com/nanobrowser/nanobrowser
+
 ## metagpt (40kstarts)
 - url: [https://github.com/geekan/MetaGPT/blob/main/examples/research.py](https://github.com/geekan/MetaGPT/tree/main)
 - 中文官网: https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html
