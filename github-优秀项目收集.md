@@ -144,3 +144,6 @@ https://github.com/David-patrick-chuks/Riona-AI-Agent
 ## metagpt (40kstarts)
 - url: [https://github.com/geekan/MetaGPT/blob/main/examples/research.py](https://github.com/geekan/MetaGPT/tree/main)
 - 中文官网: https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html
+## (前端),shadcn-admin
+- [https://github.com/satnaing/shadcn-admin]
+- 
