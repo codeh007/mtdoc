@@ -145,5 +145,5 @@ https://github.com/David-patrick-chuks/Riona-AI-Agent
 - url: [https://github.com/geekan/MetaGPT/blob/main/examples/research.py](https://github.com/geekan/MetaGPT/tree/main)
 - 中文官网: https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html
 ## (前端),shadcn-admin
-- [https://github.com/satnaing/shadcn-admin]
+- [https://github.com/satnaing/shadcn-admin] 预览: https://shadcn-admin.netlify.app/chats?
 - 
