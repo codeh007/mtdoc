@@ -149,4 +149,6 @@ https://github.com/nanobrowser/nanobrowser
 - 中文官网: https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html
 ## (前端),shadcn-admin
 - [https://github.com/satnaing/shadcn-admin] 预览: https://shadcn-admin.netlify.app/chats?
-- 
+
+## 基于 vercel ai sdk 的 agent 应用
+- https://github.com/miurla/morphic
