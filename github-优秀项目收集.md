@@ -152,3 +152,6 @@ https://github.com/nanobrowser/nanobrowser
 
 ## 基于 vercel ai sdk 的 agent 应用
 - https://github.com/miurla/morphic
+
+## 开源的 vercel 平替
+- https://github.com/dokploy/dokploy
