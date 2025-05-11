@@ -155,3 +155,6 @@ https://github.com/nanobrowser/nanobrowser
 
 ## 开源的 vercel 平替
 - https://github.com/dokploy/dokploy
+
+## 基于 typescript 的新开源 多智能体框架
+- https://github.com/VoltAgent/voltagent
